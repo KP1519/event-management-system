@@ -30,7 +30,7 @@ Follows MVC architecture:
 
 -user dashboard
 <img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/412fa15d-9879-4fda-912f-12817f08ad3f" />
--admin dashboard
+
 <img width="1920" height="1080" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/b630b679-5347-4c16-9197-d9a823131eb2" />
 
 
@@ -40,6 +40,10 @@ Follows MVC architecture:
 <img width="1920" height="1080" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/22f7ba4a-9762-41e4-a3a6-6a0fd16f3deb" />
 <img width="1920" height="1080" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/fb2fa57b-fbfe-46b2-b37e-9375f3364e89" />
 <img width="1920" height="1080" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/e504f43e-babb-4c1e-8018-e440b1130de5" />
+<img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/3708b1da-5f23-4c7e-882d-19f357350c16" />
+<img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/e96b884b-38d4-4993-8471-664547999607" />
+
+
 
 
 
