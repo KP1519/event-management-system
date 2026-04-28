@@ -25,3 +25,6 @@ Follows MVC architecture:
 - Convert to Spring Boot
 - Add REST APIs
 - Improve UI design
+## screenshots
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/412fa15d-9879-4fda-912f-12817f08ad3f" />
+
