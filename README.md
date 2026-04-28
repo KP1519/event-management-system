@@ -31,7 +31,8 @@ Follows MVC architecture:
 -user dashboard
 <img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/412fa15d-9879-4fda-912f-12817f08ad3f" />
 -admin dashboard
-![Uploading Screenshot (21).png…]()
+<img width="1920" height="1080" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/b630b679-5347-4c16-9197-d9a823131eb2" />
+
 
 
 <img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/83722728-5774-4293-a11d-ba18225b76d6" />
