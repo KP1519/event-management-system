@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PayPal Payment</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Modern font stack */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa; /* Softer background */
+        }
+
+        .payment-container {
+            background-color: white;
+            padding: 30px; /* Increased padding */
+            border-radius: 12px; /* More rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More prominent shadow */
+            width: 400px; /* Set a specific width for the container */
+        }
+
+        h1 {
+            color: #343a40; /* Darker heading color */
+            margin-bottom: 20px; /* Space below heading */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px; /* Space below label */
+            font-weight: 500; /* Slightly bolder font-weight */
+            color: #555; /* Slightly darker label color */
+        }
+
+        input[type="text"] {
+            width: calc(100% - 18px); /* Full width input with padding/border consideration */
+            padding: 10px;
+            margin-bottom: 15px; /* Space below input */
+            border: 1px solid #ced4da; /* Light gray border */
+            border-radius: 6px; /* Slightly rounded corners */
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Smooth transitions */
+        }
+
+        input[type="text"]:focus {
+            border-color: #80bdff; /* Highlight border on focus */
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Subtle blue shadow on focus */
+        }
+
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background-color 0.15s ease-in-out; /* Smooth transition */
+            width: 100%; /* Make button full width */
+        }
+
+        button:hover {
+            background-color: #0069d9;
+        }
+
+        button:active {
+            background-color: #0056b3; /* Darker on click */
+        }
+
+        /* Responsive Design (Improved) */
+        @media (max-width: 500px) {
+            .payment-container {
+                width: 90%; /* Adjust container width on smaller screens */
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="payment-container">
+        <h1>Payment</h1>
+        <form action="PayPalPaymentServlet" method="POST">
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" name="amount" required>
+            <button type="submit">Pay Now</button>
+        </form>
+    </div>
+</body>
+</html>

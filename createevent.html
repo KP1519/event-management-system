@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Event</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #d4a762;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+      box-shadow: 0px 0px 40px #d4a762;
+            text-align: left;
+              border: 3px solid #d4a762;
+    width: 350px;
+    text-align: left;
+    animation: fadeIn 0.5s ease-in-out;
+     
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="file"] {
+    border: none;
+}
+
+/* Style for both buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px;
+    background: #d4a762;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+}
+
+button:hover {
+    background: green;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.back {
+    background:#d4a762;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    flex: 1;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.back:hover {
+    background: green;
+    transform: scale(1.05);
+}
+
+</style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Create Event Form</h2>
+    <form action="Createevent" method="post" enctype="multipart/form-data">
+        <label>Event Name:</label> 
+        <input type="text" name="name" required>
+
+        <label>Event Location:</label> 
+        <input type="text" name="location" required>
+
+        <label>Organizer Name:</label> 
+        <input type="text" name="oname" required>
+
+        <label>Contact:</label> 
+        <input type="text" name="contact" required>
+
+        <label>Capacity:</label> 
+        <input type="text" name="capacity" required>
+
+        <label>Fee:</label> 
+        <input type="text" name="fee" required>
+
+        <label>Upload Image:</label> 
+        <input type="file" name="image" required>
+
+        <div class="button-container">
+            <button type="submit">Create Event</button>
+            <a href='admindashboard.jsp' class='back'>Back</a>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
